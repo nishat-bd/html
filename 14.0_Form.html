@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Student Form!</h2>
+    <form>
+        <div>
+            <label for="fullname">Full Name :</label>
+            <input type="text" name="fullname" id="fullname" required>
+        </div><br>
+
+        <div>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email">
+        </div><br>
+
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+        </div><br>
+
+        <div>
+            <label for="dob">Date Of Birth :</label>
+            <input type="date" name="dob" id="dob">
+        </div><br>
+
+        <div>
+            <label for="photo">Choose your photo :</label>
+            <input type="file" name="photo" id="photo">
+        </div><br>
+
+        <div>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </div><br>
+
+        <div>
+            <label for="religion">Religion :</label>
+            <input checked type="checkbox" name="religion" id="religion" value="muslim">Muslim
+            <input type="checkbox" name="religion" id="religion" value="muslim">Mushriq
+        </div><br>
+
+        <div>
+            <label for="depertment">Depertment :</label>
+            <select name="depertment">
+                <option value="Computer Science And Engineering">CSE</option>
+                <option value="Information And Communication Engineering">ICE</option>
+                <option value="Electrical and Electronics Engineering">EEE</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="textarea">Message : </label><br>
+            <textarea cols="40" rows="5"></textarea>
+        </div><br>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div><br>
+
+    </form>
+</body>
+
+</html>
